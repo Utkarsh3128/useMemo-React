@@ -27,6 +27,7 @@ function App() {
           type="number"
           value={number}
           onChange={(e) => setNumber(parseInt(e.target.value))}
+          className="input"
         ></input>
         <h1>{number}</h1>
         <button
