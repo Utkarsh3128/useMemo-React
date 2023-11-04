@@ -47,7 +47,8 @@ export default App;
 
 function slowFunc(num) {
   console.log("Calculating");
+  let result = num;
   for (let i = 0; i < 100000000; i++) {
-    return (num += 1);
+   return result += 1;
   }
 }
