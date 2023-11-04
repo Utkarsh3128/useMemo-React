@@ -1,8 +1,10 @@
-# React + Vite
+# React useMemo Hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a basic example of useMemo hook 
 
-Currently, two official plugins are available:
+### ```useMemo``` Hook
+The React ```useMemo``` Hook returns a memoized value.
+The ```useMemo``` Hook only runs when one of its dependencies update.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### useMemo Hook vs useEffect Hook
+The main difference between ```useMemo``` and ```useEffect``` hook is that ```useMemo``` returns a memoized value and ```useEffect``` returns a memoized function
